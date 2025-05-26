@@ -30,11 +30,14 @@
         <nav>
             <h5>CONTACT</h5>
              <form>
-                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="name" id="name">
+                 <label for="name">Name</label>
                 <br>
-                <input type="email" name="email" id="email"placeholder="Email">
+                <input type="email" name="email" id="email">
+                 <label for="email">Email</label>
                 <br>
-                <input type="tex" name="type a message" placeholder="type a message">
+                <input type="tex" name="type a message">
+                <label for="type a message"> Type a message</label>
                 <br>
                 <input type="button" value="Submit">
                 <br>
