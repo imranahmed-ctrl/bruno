@@ -29,14 +29,16 @@
         </nav>
         <nav>
             <h5>CONTACT</h5>
-             <form action="#" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="message">Message:</label>
-    <input type="message" name="message" rows="5" required>
-    <button><button type="submit"></button></button>   
+             <form>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <br>
+                <input type="email" name="email" id="email"placeholder="Email">
+                <br>
+                <textarea name="Type a message" id="" cols="15" rows="10">Type a message</textarea>
+                <br>
+                <input type="button" value="Submit">
+                <br>
+            </form>  
         </nav>
     </section>
 </body>
