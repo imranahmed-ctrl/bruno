@@ -34,7 +34,7 @@
                 <br>
                 <input type="email" name="email" id="email"placeholder="Email">
                 <br>
-                <textarea name="Type a message" id="" cols="15" rows="10">Type a message</textarea>
+                <input type="tex" name="type a message" placeholder="type a message">
                 <br>
                 <input type="button" value="Submit">
                 <br>
