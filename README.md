@@ -36,7 +36,7 @@
     <input type="email" id="email" name="email" required>
     <label for="message">Message:</label>
     <input type="message" name="message" rows="5" required>
-    <button><button type="submit"></button></button>        
+    <button><button type="submit"></button></button>   
         </nav>
     </section>
 </body>
