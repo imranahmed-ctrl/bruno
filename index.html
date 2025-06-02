@@ -1,45 +1,47 @@
 <head>
     <title>My portfolio</title>
-    <h1>Welcome To My World</h1>
+    <h1 class="fw-bold">Welcome To My World</h1>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
-<body>
-    <section>
-        <nav>
-            <h1>HOME</h1>
-            <P>My name is Imran Ahmed,a student at Moringa School pursuing software engineering</P>
-            <p>Fun fact about me is am a die hard fan of Manchester United and i can't leave the club even though they always lose{good times are coming i hope}. </p>
+<body class="text-center bg-secondary">
+    <section class="section section-expand-lg bg-danger border-bottom">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <h1 class="text-primary">HOME</h1>
+            <P class="mb-4 mt-2">My name is Imran Ahmed,a student at Moringa School pursuing software engineering</P>
+            <p class="mb-4 mt-2">Fun fact about me is am a die hard fan of Manchester United and i can't leave the club even though they always lose{good times are coming i hope}. </p>
             <img src="its me.jpeg" alt="a picture of me" width="400" height="500">
         </nav>
         <nav>
-            <h2>ABOUT</h2>
-            <p>I was born in a small town at the coast called Mariakani,that i where i spent my first 16 years of my life .</p>
-            <p>I studied my primary education at a local school in our are called Rasul Al Amin where i attained 382 marks in my KCPE .</p>
-            <P>I then proceeded to high school in the Ukambani region in a school called MAKUENI boys where i attained a mean grade of B in my KCSE .</P>
-            <p>I want to do programming because I believe I can solve some underlying world issues {I also want to create apps from scratch so i can be financially independent} . </p>
+            <h2 class="text-primary">ABOUT</h2>
+            <p class="mb-4 mt-2">I was born in a small town at the coast called Mariakani,that i where i spent my first 16 years of my life .</p>
+            <p class="mb-4 mt-2">I studied my primary education at a local school in our are called Rasul Al Amin where i attained 382 marks in my KCPE .</p>
+            <P class="mb-4 mt-2">I then proceeded to high school in the Ukambani region in a school called MAKUENI boys where i attained a mean grade of B in my KCSE .</P>
+            <p class="mb-4 mt-2">I want to do programming because I believe I can solve some underlying world issues {I also want to create apps from scratch so i can be financially independent} . </p>
         </nav>
         <nav>
-            <h3>SKILLS</h3>
-            <p>Some technical skills that i have are ,i'm computer literate, I know how to trade {forex,stocks,futures, crypto,etc} etc .</p>
-            <p>I'm not only good at technical things i also know how to play football {my preferred position being CDM} and i'm also good with people {I can literally talk a person of a bridge} .</p>
+            <h3 class="text-primary">SKILLS</h3>
+            <p class="mb-4 mt-2">Some technical skills that i have are ,i'm computer literate, I know how to trade {forex,stocks,futures, crypto,etc} etc .</p>
+            <p> class="mb-4 mt-2"I'm not only good at technical things i also know how to play football {my preferred position being CDM} and i'm also good with people {I can literally talk a person of a bridge} .</p>
         </nav>
         <nav>
-            <h4>PROJECTS</h4>
-            <P>I'm currently a student so i dont have any projcts going on but i'm hopeful .</P>
-            <p>I have some ideas though for after i finish this course eg, i would like to create an app for traders so that they can automatically track their trades {like a tarding journal} so that they can know their progress{ still figuring out its name} etc .</p>
+            <h4 class="text-primary">PROJECTS</h4>
+            <P class="mb-4 mt-2">I'm currently a student so i dont have any projcts going on but i'm hopeful .</P>
+            <p class="mb-4 mt-2">I have some ideas though for after i finish this course eg, i would like to create an app for traders so that they can automatically track their trades {like a tarding journal} so that they can know their progress{ still figuring out its name} etc .</p>
         </nav>
-        <nav>
-            <h5>CONTACT</h5>
-            <form>
+        <nav class="container-fluid">
+            <h5 class="text-primary">CONTACT</h5>
+            <form class="d-flex" role="search">
                 <input type="text" name="name" id="name">
                 <label for="name">Name</label>
                 <br>
-                <input type="email" name="email" id="email">
+                <input class="form-control-me-2" type="search" placeholder="search" aria-label="search" type="email" name="email" id="email">
                 <label for="email">Email</label>
                 <br>
                 <input type="text" name="type a message">
                 <label for="type a message"> Type a message</label>
                 <br>
-                <input type="button" value="Submit">
+                <button type="submit" class="btn btn-outline-success">submit</button>
                 <br>
             </form> 
         </nav>
